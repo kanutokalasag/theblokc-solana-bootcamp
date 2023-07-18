@@ -24,15 +24,14 @@ export default function Home() {
 
       <div className={styles.main}>
         <h1 className={styles.title}>
-          Your First Solana Program with{" "}
-          <a href="https://alchemy.com/solana/?a=d0c917f7ef">Alchemy</a>!
+          Solana Bootcamp Project{" "}
         </h1>
 
         {wallet && (
           <div className={styles.message_bar}>
             <input
               className={styles.message_input}
-              placeholder="Write Your Message!"
+              placeholder="Write message here"
               onChange={(e) => setInputtedMessage(e.target.value)}
               value={inputtedMessage}
             />
@@ -58,7 +57,7 @@ export default function Home() {
                 setLoading(false);
               }}
             >
-              {message ? "Update the Message!" : "Create a Message!"}
+              {message ? "Update the message" : "Create a message"}
             </button>
           </div>
         )}
@@ -72,13 +71,9 @@ export default function Home() {
           wallet &&
           message && (
             <div className={styles.card}>
-              <h2>Current Message: {message}</h2>
-              <h2>
-                Message Author: {messageAuthor.substring(0, 4)}
-                ...
-                {messageAuthor.slice(-4)}
-              </h2>
-              <h2>Time Published: {new Date(messageTime).toLocaleString()}</h2>
+              <h3>Current Message: {message}</h3>
+              <h3>Message Author: {messageAuthor}</h3>
+              <h3>Time Published: {new Date(messageTime).toLocaleString()}</h3>
             </div>
           )
         )}
