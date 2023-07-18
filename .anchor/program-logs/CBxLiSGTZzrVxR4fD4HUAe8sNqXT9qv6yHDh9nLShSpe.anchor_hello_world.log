@@ -1,0 +1,19 @@
+Streaming transaction logs mentioning CBxLiSGTZzrVxR4fD4HUAe8sNqXT9qv6yHDh9nLShSpe. Confirmed commitment
+Transaction executed in slot 80984:
+  Signature: 3fbJ7UbmyZgv429Jq3QDMQ55qeQbPj4U3GL2cHnQStJbCqx2drZVkZBmmh536G9CnSLZER5EDmJv4icdGmvEE6NK
+  Status: Ok
+  Log Messages:
+    Program CBxLiSGTZzrVxR4fD4HUAe8sNqXT9qv6yHDh9nLShSpe invoke [1]
+    Program log: Instruction: Initialize
+    Program CBxLiSGTZzrVxR4fD4HUAe8sNqXT9qv6yHDh9nLShSpe consumed 323 of 200000 compute units
+    Program CBxLiSGTZzrVxR4fD4HUAe8sNqXT9qv6yHDh9nLShSpe success
+Transaction executed in slot 80985:
+  Signature: 3ddfxucrQWViASMtUy9yXkDZMJWvVCXbRdrPAmTQRGgYxsgKzmMoP43dEPGtaSoX3Kwe9rgMfj9jFbaHRwUztKtJ
+  Status: Ok
+  Log Messages:
+    Program CBxLiSGTZzrVxR4fD4HUAe8sNqXT9qv6yHDh9nLShSpe invoke [1]
+    Program log: Instruction: CreateMessage
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program CBxLiSGTZzrVxR4fD4HUAe8sNqXT9qv6yHDh9nLShSpe consumed 7747 of 200000 compute units
+    Program CBxLiSGTZzrVxR4fD4HUAe8sNqXT9qv6yHDh9nLShSpe success
